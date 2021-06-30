@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.error {
+    padding: 18px;
+    background-color: brown;
+    border-bottom: 2px solid rgb(109, 27, 27);
+
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 16px;
+}
+
+.xdebug-var-dump {
+    padding: 8px;
+    font-size: 12px;
+}
+
+fieldset {
+    padding: 8px;
+    margin: 0 150px 0 50px;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 2px 4px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 60%;
+}
+
+input[type="submit"] {
+    width: 30%;
+    align-self: left;
+}
